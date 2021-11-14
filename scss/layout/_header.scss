@@ -39,7 +39,7 @@
 .header-nav {
   margin-right: auto;
 }
-.nav-link {
+.header-nav__link {
   display: block;
   font-weight: 500;
   font-size: 14px;
@@ -49,11 +49,11 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.menu-list {
+.header-nav__list {
   display: flex;
 }
 
-.menu-list-link {
+.header-nav__item {
   margin-right: 50px;
 
   &:last-child {
@@ -67,7 +67,7 @@
     margin-right: 0;
   }
 }
-.nav-link {
+.header-nav__link {
   position: relative;
 }
 
