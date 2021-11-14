@@ -16,9 +16,10 @@
 }
 .what-we-do-topic-img {
   margin-right: 30px;
-}
-.what-we-do-topic-img:last-child {
-  margin-right: 0;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .what-we-do-wrap {
