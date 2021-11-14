@@ -531,7 +531,7 @@ section {
   align-items: center;
 }
 
-.homepage {
+.logo {
   display: inline-block;
   font-family: Raleway;
   font-weight: 700;
@@ -543,7 +543,7 @@ section {
   margin-right: 93px;
 }
 
-.homepage-footer {
+.logo-footer {
   display: inline-block;
   font-family: Raleway;
   font-weight: 700;
@@ -552,11 +552,11 @@ section {
   color: var(--background-text-color);
 }
 
-.homepage-dark {
+.logo-dark {
   color: var(--third-text-color);
 }
 
-.homepage-light {
+.logo-light {
   color: var(--header-color);
 }
 
@@ -587,11 +587,11 @@ section {
   margin-right: 0px;
 }
 
-.header-contacts-link {
+.header--contacts {
   margin-right: 50px;
 }
 
-.header-contacts-link:last-child {
+.header--contacts:last-child {
   margin-right: 0;
 }
 
@@ -599,11 +599,11 @@ section {
   position: relative;
 }
 
-.contacts-container {
+.header__contacts-container {
   display: flex;
 }
 
-.contact-link {
+.header--contact-link {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -621,7 +621,7 @@ section {
   padding-bottom: 60px;
 }
 
-.footer-homepage-link {
+.footer-logo-link {
   display: flex;
   margin-bottom: 20px;
 }
