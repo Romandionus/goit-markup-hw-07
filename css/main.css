@@ -190,6 +190,12 @@ section {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.btn:hover, .btn:focus {
+  background-color: var(--background-text-color);
+  color: var(--header-color);
+  box-shadow: var(--shadow-all--);
+}
+
 .btn-container-list {
   display: flex;
   justify-content: center;
@@ -199,13 +205,6 @@ section {
 .active-btn {
   color: var(--header-color);
   background-color: var(--background-text-color);
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: var(--background-text-color);
-  color: var(--header-color);
-  box-shadow: var(--shadow-all--);
 }
 
 .btn-container-item {
@@ -328,8 +327,7 @@ section {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn-modal-submit:focus,
-.btn-modal-submit:hover {
+.btn-modal-submit:focus, .btn-modal-submit:hover {
   box-shadow: var(--shadow-all--);
 }
 
