@@ -27,10 +27,10 @@
 }
 .map-address-list-item {
   margin-bottom: 9px;
-}
 
-.map-address-list-item:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 .container-footer {
   display: flex;

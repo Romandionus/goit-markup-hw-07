@@ -23,6 +23,10 @@
 .our-qualities-container-item {
   margin-left: 30px;
   flex-basis: calc((100% - 3 * 30px) / 4);
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
 .our-qualities-container-item-icon {
@@ -31,10 +35,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--background-color-two);
-}
-
-.our-qualities-container-item:first-child {
-  margin-left: 0;
 }
 
 .our-qualities-description {

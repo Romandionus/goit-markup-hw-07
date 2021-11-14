@@ -56,6 +56,10 @@
   flex-basis: calc((100% - 3 * 30px) / 4);
   box-shadow: var(--shadow-all--);
   border-radius: 0px 0px 4px 4px;
+
+  &:nth-child(4n) {
+    margin-right: 0px;
+  }
 }
 
 .our-team-person {
@@ -63,14 +67,10 @@
   line-height: 1.18;
   color: var(--primary-text-color);
   margin-bottom: 10px;
-}
 
-.our-team-person:last-child {
-  margin-right: 0;
-}
-
-.our-team-topic-item:nth-child(4n) {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .our-team-position {
